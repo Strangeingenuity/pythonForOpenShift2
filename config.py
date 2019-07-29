@@ -1,5 +1,5 @@
 import os
-import urllib.request
+
 
 workers = int(os.environ.get('GUNICORN_PROCESSES', '3'))
 threads = int(os.environ.get('GUNICORN_THREADS', '1'))
